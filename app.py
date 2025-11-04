@@ -1,4 +1,7 @@
 # fraud_dashboard.py
+import os
+
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 import streamlit as st
 import pandas as pd

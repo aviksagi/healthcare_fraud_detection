@@ -207,9 +207,11 @@ marimo/_lsp/
 __marimo__/
 
 
-# Ignore data files
+# .gitignore
 *.csv
+__pycache__/
 *.pkl
 *.zip
 data/
-__pycache__/
+.cache/
+.streamlit/
